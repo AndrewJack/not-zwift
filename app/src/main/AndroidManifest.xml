@@ -2,6 +2,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="uk.andrewjack.notzwift">
 
+    <permission android:name="android.permission.BLUETOOTH" />
+    <permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <permission android:name="android.permission.WAKE_LOCK" />
+    <permission android:name="android.permission.INTERNET" />
+    <permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
