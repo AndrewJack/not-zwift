@@ -1,6 +1,8 @@
 package uk.andrewjack.notzwift.services
 
-class WahooTrainer : Trainer {
+import javax.inject.Inject
+
+class WahooTrainer @Inject constructor() : Trainer {
     override fun findDevices() {
         TODO("Not yet implemented")
     }
